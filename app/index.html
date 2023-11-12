@@ -9,10 +9,11 @@
     <title>Frontend Mentor | [Challenge Name Here]</title>
   </head>
   <body>
+    <div class="elementDecorative1"></div>
     <main>
       <article id="chat">
         <div class="headerChat">
-          <p><</p>
+          <span></span>
           <div class="profil">
             <img src="../images/avatar.jpg" alt="avatar icon profil" />
             <p>Samuel Green</p>
@@ -20,7 +21,7 @@
           </div>
           <span></span>
         </div>
-        <div class="chat">
+        <div class="chatBox">
           <div>
             <p>That sounds great. I’d be happy with that.</p>
             <p>Could you send over some pictures of your dog, please?</p>
@@ -37,20 +38,23 @@
           <div>
             <p>She looks so happy! The time we discussed works. How long shall I take her out for?</p>
             <label for="walks">
-              <input type="radio" name="walks" id="walks" />
+              <input type="radio" name="walks" id="" />
               1 hour walk
               <strong>$29</strong>
             </label>
             <label for="walks">
-              <input type="radio" name="" id="" />
+              <input type="radio" name="walks" id="" />
               30 minute walk
               <strong>$49</strong>
             </label>
           </div>
-          <input type="text" name="" id="" disabled placeholder="Type a message…" />
+          <label for="">
+            <input type="text" placeholder="Type a message…" />
+            <span>></span>
+          </label>
         </div>
       </article>
-      <article>
+      <article id="text">
         <h1>Simple booking</h1>
         <p>
           Stay in touch with our dog walkers through the chat interface. This makes it easy to discuss arrangements and make bookings. Once the walk
@@ -58,6 +62,8 @@
         </p>
       </article>
     </main>
+    <div class="elementDecorative2"></div>
+
     <script src="main.js"></script>
   </body>
 </html>
